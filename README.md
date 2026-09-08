@@ -80,7 +80,7 @@ This project demonstrates the implementation of a complete e-commerce workflow, 
 
 ### 📦 Order Details
 
-<img src="C:\Users\Mantsha\Downloads\ShopX\my-folder-checkpoint2\assets\image.png" alt="Order Details" title="Order Details">
+<img src="./assets/image.png" alt="Order Details" title="Order Details">
 
 ## ⚙️ Installation & Setup
 
