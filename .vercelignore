@@ -1,0 +1,11 @@
+# This backend is deployed as its OWN Vercel project (root directory = repo
+# root, entry point = index.js via vercel.json). The frontend (client/) is
+# deployed as a SEPARATE Vercel project with its root directory set to
+# `client`. Excluding client/ here keeps the backend function bundle small
+# and avoids uploading the frontend's own (much larger) node_modules/build
+# artifacts into a deployment that never serves them.
+#
+# NOTE: this file only matters for the split-deploy path. If you instead
+# deploy this app the traditional way (single Node process, SERVE_CLIENT_BUILD
+# left at its default) on a non-Vercel host, this file is irrelevant there.
+client/
